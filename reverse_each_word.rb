@@ -5,3 +5,7 @@ def reverse_each_word(sentence1)
   end
   reversed.join(" ")
 end
+
+def reverse_each_word(sentence2)
+  reversed = []
+  sentence2.collect
