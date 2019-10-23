@@ -7,9 +7,7 @@
 # end
 
 def reverse_each_word(sentence2)
-  reversed = " "
   sentence2.split(' ').collect do |word| 
-   reversed << word.reverse
+   puts word.reverse
   end
-  reversed
 end
