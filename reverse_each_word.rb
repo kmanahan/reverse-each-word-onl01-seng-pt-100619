@@ -6,8 +6,9 @@
 #   reversed.join(" ")
 # end
 
-def reverse_each_word(sentence12)
-  sentence12.split(' ') do |word| 
+def reverse_each_word(sentence2)
+  sentence2.split(' ') do |word| 
     puts word.reverse 
   end
+  sentence2.join(" ")
 end
