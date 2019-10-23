@@ -8,7 +8,7 @@
 
 def reverse_each_word(sentence2)
   reversed = []
-   sentence1.split(' ').each do |word|
+   sentence1.split(' ').collect do |word|
     reversed << word.reverse
   end
   end
