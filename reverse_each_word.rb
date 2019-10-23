@@ -3,7 +3,7 @@ def reverse_each_word(sentence1)
   sentence1.split(' ').each do |word|
     reversed << "#sentence1".reverse
   end
-  sentence1
+  reversed
 end
 
 # def hamburger(toppings)
