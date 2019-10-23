@@ -1,5 +1,6 @@
 def reverse_each_word(sentence1)
-  sentence1.each  {|sentence|}
+  sentence1.each  {|word|
+  puts"#{sentence}".split
   end
   sentence1
 end
