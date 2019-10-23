@@ -8,4 +8,7 @@ end
 
 def reverse_each_word(sentence2)
   reversed = []
-  sentence2.collect {|word| word.}
+  sentence2.collect {|word| word.reverse}
+end
+  sentence2.join(" ")
+end
