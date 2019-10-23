@@ -8,4 +8,4 @@ end
 
 def reverse_each_word(sentence2)
   reversed = []
-  sentence2.collect
+  sentence2.collect {|word| word.}
