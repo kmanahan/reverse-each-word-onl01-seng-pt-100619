@@ -9,7 +9,6 @@
 def reverse_each_word(sentence2)
   sentence2.split(' ').collect {|word| 
    puts word}
-  end
   sentence2
 end
 
