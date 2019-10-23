@@ -9,6 +9,6 @@
 def reverse_each_word(sentence2)
   sentence2.split(' ').collect 
 end
-  sentence2.reverse
+  sentence2.reversed
 end
 
