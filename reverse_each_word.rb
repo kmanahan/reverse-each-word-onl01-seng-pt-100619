@@ -10,6 +10,6 @@ def reverse_each_word(sentence2)
   sentence2.split(' ').collect do |word|
    sentence1.split(' ').each do |word|
     reversed << word.reverse
-end
-reversed.join(" ")
-end
+  end
+  reversed.join(" ")
+  end
