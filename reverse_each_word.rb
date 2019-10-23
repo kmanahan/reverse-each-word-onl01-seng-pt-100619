@@ -9,6 +9,6 @@
 def reverse_each_word(sentence2)
   reversed = []
    sentence1.split(' ').each do |word|
-    word << reversed.reverse
+    reversed << word.reverse
   end
   end
