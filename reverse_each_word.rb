@@ -7,7 +7,9 @@ def reverse_each_word(sentence1)
 end
 
 def reverse_each_word(sentence2)
-  sentence2.collect {|word| word.reverse}
+  reversed = []
+  sentence2.collect.each do |word|
+    reversed << word.reverse
 end
   sentence2.join(" ")
 end
